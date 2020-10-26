@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link href="../css/header.css" rel="stylesheet" />
+    <link href="../css/contact.css" rel="stylesheet" />
+    <link href="../css/footer.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <title>Contato</title>
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark navegacao">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a href="../index.html">
+            <img class="navbar-brand img-mapie" src="../imagens/logo.png" />
+        </a>
+
+        <div id="navbar" class="collapse navbar-collapse w-100">
+
+            <!-- Links -->
+            <ul class="navbar-nav text-center mx-auto">
+                <li class="nav-item active link-nav">
+                    <a class="nav-link" href="../index.html">Início</a>
+                </li>
+                <li class="nav-item active link-nav">
+                    <a class="nav-link" href="./about.html">Equipe</a>
+                </li>
+                <li class="nav-item active link-nav">
+                    <a class="nav-link" href="./contact.html">Contato</a>
+                </li>
+            </ul>
+            <!-- Fim dos links -->
+        </div>
+
+    </nav>
+    <!-- Fim navegação -->
+
+</head>
+
+<body>
+    <!-- div para o email -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 offset-5 form-div">
+                <form action="">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input id="nome" aria-describedby="nomeHelp" placeholder="Digite seu nome" class="form-control"
+                            type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input id="email" aria-describedby="emailHelp" placeholder="Digite seu email"
+                            class="form-control" type="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto">Assunto</label>
+                        <input id="assunto" aria-describedby="assuntoHelp" placeholder="Assunto" class="form-control"
+                            type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" rows="4" placeholder="Digite sua mensagem"
+                            class="form-control"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-light btn-enviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <footer class="page-footer footer-bg text-center fixed-bottom">
+        <!-- div dos icones sociais -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+            <a href="#">
+                <i class="fab fa-instagram social"></i>
+            </a>
+            <a href="https://twitter.com/Mapie98134283">
+                <i class="fab fa-twitter social"></i>
+            </a>
+            <a href="https://www.facebook.com/EquipeMapie">
+                <i class="fab fa-facebook social"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-youtube social"></i>
+            </a>
+        </div>
+        <!-- fim da div dos icones -->
+        <p>Mapie © 2020 We survived!</p>
+    </footer>
+</body>
+
+</html>

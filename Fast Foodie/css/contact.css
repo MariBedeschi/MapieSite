@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans+JP&display=swap');
+
+h1,h2,h3,h4{
+    color: white;
+    font-family: 'Francois One', sans-serif;
+}
+
+p, label{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.btn-enviar{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-div{
+    margin-top: 20px;
+}

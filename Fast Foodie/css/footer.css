@@ -1,0 +1,21 @@
+@media (max-width: 1440px) {
+    .fixed-bottom {
+        position: relative !important;
+    }
+}
+
+.social{
+    font-size: 15px;
+    color: white;
+    margin: 15px 5px;
+}
+
+.footer-bg{
+    background-color: transparent;
+}
+
+.text-footer{
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: small;
+}
